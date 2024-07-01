@@ -1,0 +1,23 @@
+Cara menyambungkan git ke github 
+1. ke folder yang sudah git init
+2. Ketik "git remote add origin <remote_repository_URL>"
+3. git remote -v -> untuk verifikaasi apakah git sudah terhubung secara online
+4. git push -u origin main -> untuk update repository pada github jika ada perubahan
+
+Cara menarik repo jika ada perbaikan
+1. git pull origin main -> jika hanya 1 branch
+2. git pull origin <nama.branch> -> tarik branch lain
+
+Cara clone repo 
+1. git clone <HTTPS.URL.REPO.GITHUB> (Berarti tidak harus git init lagi)
+
+Habis melakukan commit dalam git. Kita dapat update github dengan menggunakan command
+1. git push
+
+Cara mengubah akun github pada terminal git
+1. git config --global user.name "<user.name.github>"
+2. git config --global user.email "<user.gmail.github>"
+
+Jika ada perubahan pada remote, dan push kita gagal, bisa gunakan :
+1. git fetch
+2. git pull

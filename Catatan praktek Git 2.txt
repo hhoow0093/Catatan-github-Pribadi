@@ -1,0 +1,11 @@
+git branch -> menunjukkan list branch pada repository (hijau berarti branch yang aktif)
+git granch <nama.file> -> membuat branch baru
+git log --all --decorate --oneline --graph -> melihat illustrasi git 
+git branch -f <nama.branch> <kunci.hash> -> memindahkan branch ke commit dengan pada hash key tertentu
+
+CARA menggabungkan branch ke master :
+1. ke master branch
+2. jalankan "git merge <nama.branch>
+3. git branch --merged -> melihat branch yang udah di merged
+4. git branch -d <nama.branch> -> delete branch ketika sudah di merged
+5. git branch -D <nama.branch> -> delete branch secara paksa apabila udah di merge atau belum 

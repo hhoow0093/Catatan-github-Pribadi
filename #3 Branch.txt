@@ -1,0 +1,5 @@
+Branching
+1. Membuat Git Branch 
+2. Membuat snapshot tanpa mengganggu master Branch
+3. Fitur Experimental
+4. 2 Orang mengerjakan hal yang sama

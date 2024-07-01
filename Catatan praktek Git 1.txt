@@ -1,0 +1,10 @@
+git init
+git add index.html
+git add . -> menambahkan segala perubahan pada staging file
+git commit (specify user)
+git commit -m "mengubah...."
+git status -> biar tahu keadaan git
+git log -> menunjukkan commit yang pernah dilakukan
+git log -1 -> menunjukkan commit yang paling baru karena -1
+git log -- Styles.css -> spesifik 1 file
+git checkout 5_digit_hash -- Styles.css -> Mengembalikan File Styles.css yang telah dihapus
